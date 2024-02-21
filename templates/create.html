@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Page</title>
+    <link href="/static/css/create.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/icon/" type="image/x-icon">
+    <script src="/static/js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">   
+        <main>
+            <div class = "create-content"> 
+                <h1>NOOTOPAD</h1>
+                    <form action="{{ url_for('create') }}" method="post">
+                        <input type="text" id="title" name="title" class="input-title" placeholder="Title"><br>
+                        <textarea id="content" name="content" class="note-content"></textarea><br>
+                        <input type="submit" value="Save" class="button-submit">
+                    </form>
+            </div>           
+            <!-- footer-->
+            <div class="footer">
+                <div class="footer-social">
+                    <span class="social-icon social-icon-linkedln"><a href="https://www.linkedin.com/in/tuthanhkhale/" title="linkedln" target="blank" rel="noopener">
+                        <img src="/static/icon/linkedln.svg" width="24" height="24" alt="linkedln"></a> 
+                    </span>
+                    <span class="social-icon social-icon-github"><a href="https://github.com/ananquay15x9" title="github" target="blank" rel="noopener">
+                        <img src="/static/icon/github.svg" width="24" height="24" alt="github"></a> 
+                    </span>
+                </div>    
+            </div>           
+        </main>
+    </div>
+</body>
+</html>

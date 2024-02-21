@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Page</title>
+    <link href="/static/css/index.css" rel="stylesheet" type="text/css">
+    <script src="/static/js/script.js" type="text/javascript"></script>
+    <link rel="icon" href="/icon/" type="image/x-icon">
+</head>
+<body>
+    <div class="container">   
+        <main>
+            <div class = "intro"> 
+                <h1>NOOTOPAD</h1>
+                <div class ="intro-content">
+                    <a href="{{ url_for('create') }}">Create New Note</a>
+                </div>
+                <div class="note-container">
+                    <nav>
+                        <ul>
+                            {% for note in notes %}
+                            <div class="note-box" onclick="redirectToEditPage('{{ url_for('edit', id=note.id) }}')">
+                            <li>
+                                <h2>{{ note.title }}</h2>
+                                <p>{{ note.content }}</p>
+                                <a href="{{ url_for('delete', id=note.id) }}">Delete</a>
+                            </li>
+                            </div>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>            
+            </div>           
+            <!-- footer-->
+            <div class="footer">
+                <div class="footer-social">
+                    <span class="social-icon social-icon-linkedln"><a href="https://www.linkedin.com/in/tuthanhkhale/" title="linkedln" target="blank" rel="noopener">
+                        <img src="/static/icon/linkedln.svg" width="24" height="24" alt="linkedln"></a> 
+                    </span>
+                    <span class="social-icon social-icon-github"><a href="https://github.com/ananquay15x9" title="github" target="blank" rel="noopener">
+                        <img src="/static/icon/github.svg" width="24" height="24" alt="github"></a> 
+                    </span>
+                </div>    
+            </div>           
+        </main>
+    </div>
+</body>
+</html>
