@@ -1,6 +1,6 @@
-# Nootopad - Your Free Online Notepad 🔍
+# Nootopad - Your Free Online Notepad 🗒️
 
-**ShoVi** is a IP Lookup Tool provides automated threat intelligence lookups for IPs based on your clipboard. It checks the clipboard for IP addresses, then perform lookups using Shodan and VirusTotal APIs to retrieve information.
+**Nootopad** is a web app that's all about making note-taking easy and hassle-free. Developed with Flask for backend functionality, Nootopad provides a seamless experience for users to jot down and manage their thoughts. 
 
 
 ## Features 🚀
