@@ -1,7 +1,8 @@
 # Nootopad - Your Free Online Notepad 🗒️
 
-**Nootopad** is a web app that's all about making note-taking easy and hassle-free. Developed with Flask for backend functionality, Nootopad provides a seamless experience for users to jot down and manage their thoughts. 
+**[Nootopad](https://nootopad.com)** is a web app that's all about making note-taking easy and hassle-free. Developed with Flask for backend functionality, Nootopad provides a seamless experience for users to jot down and manage their thoughts. 
 
+#### For Nootopad, while I can't share the complete project due to its complexity involving Flask, hosting, routing, and database management, I'm excited to offer the base code of the note-taking app, allowing you to explore and build upon it. Please note that this version is designed for single-user functionality with a shared database. I encourage you to experiment with the code and adapt it to your needs. Just remember to credit me for the original concept and code contribution.
 
 ## Features 🚀
 
