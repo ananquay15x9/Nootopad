@@ -34,4 +34,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**ShoVi** - Explore IP all over the world! 🌐
+**Nootopad** - Take notes, take notes, take notes, take notes 📒
